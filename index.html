@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>ZEHRA YILMAZ</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <p class="contact">
+    <a href="https://github.com/Zehraylmz61" class="github" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    |
+    <a href="https://www.linkedin.com/in/zehra-y-b7882a316/" class="linkedin" target="_blank" aria-label="LinkedIn">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+  </p>
+
+  <div class="language-switcher">
+    <button onclick="setLanguage('en')">EN</button>
+    <button onclick="setLanguage('tr')">TR</button>
+  </div>
+
+<div class="container">
+  <div class="header">
+    <img src="zehraylmz.jpg" alt="Zehra Yılmaz" class="profile-img" />
+
+    <div class="info">
+      <h1>ZEHRA YILMAZ</h1>
+      <p>
+        <a href="mailto:zehraayilmazz@outlook.com">zehraayilmazz@outlook.com</a> |
+        <a href="tel:+90 530 462 97 61">+90 530 462 97 61</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="about">
+    <h2>ABOUT ME</h2>
+    <p>
+      I'm studying Computer Engineering at Karabük University. I know the
+      basics of web technologies and programming, and I'm interested in
+      cybersecurity.
+    </p>
+  </div>
+</div>
+
+
+  <div class="slider-container">
+    <button class="slider-btn left" onclick="moveSlide(-1)">&#10094;</button>
+
+    <div class="slider" id="slider">
+      <div class="slide">
+        <section class="education">
+          <h2>EDUCATION</h2>
+          <div>
+            <h3>SINCAN FATIH ANATOLIAN HIGH SCHOOL</h3>
+            <p>2016 | 2021</p>
+            <h3>COMPUTER ENGINEERING, KARABÜK UNIVERSITY</h3>
+            <p>2022 | -</p>
+          </div>
+        </section>
+      </div>
+
+      <div class="slide">
+        <section class="skills">
+          <h2>SKILLS</h2>
+          <div>
+            <h3>PROGRAMMING LANGUAGES</h3>
+            <p>C, JAVA (OOP)</p>
+
+            <h3>WEB TECHNOLOGIES</h3>
+            <p>HTML, CSS, PHP, JS</p>
+
+            <h3>DATABASES</h3>
+            <p>SQL</p>
+          </div>
+        </section>
+      </div>
+
+      <div class="slide">
+        <section class="languages">
+          <h2>LANGUAGES</h2>
+          <div>
+            <h3>ENGLISH</h3>
+            <p>B1-B2</p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <button class="slider-btn right" onclick="moveSlide(1)">&#10095;</button>
+
+    <div class="indicator-container"></div>
+  </div>
+
+  <footer style="text-align: center;">
+  <p>
+    © 2025 Zehra Yılmaz |
+    <a href="ZehraYılmaz.pdf" target="_blank" style="text-decoration: none; color: #1e3c72;">
+      CV (PDF)
+    </a>
+  </p>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
